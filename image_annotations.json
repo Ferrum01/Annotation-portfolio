@@ -1,0 +1,122 @@
+{
+  "project": "Multi-Modal Annotation Dataset",
+  "annotator": "Adekunle Feranmi",
+  "annotation_type": "Bounding Box",
+  "tool": "MakeSense.ai",
+  "date": "November 2025",
+  "images": [
+    {
+      "image_id": "img_001",
+      "filename": "street_scene_01.jpg",
+      "width": 1280,
+      "height": 720,
+      "annotations": [
+        { "label": "car", "bbox": [120, 300, 280, 180], "confidence": "high", "notes": "Fully visible sedan" },
+        { "label": "person", "bbox": [450, 200, 80, 200], "confidence": "high", "notes": "Walking pedestrian" },
+        { "label": "traffic_light", "bbox": [700, 100, 40, 100], "confidence": "high", "notes": "Green light visible" }
+      ]
+    },
+    {
+      "image_id": "img_002",
+      "filename": "street_scene_02.jpg",
+      "width": 1280,
+      "height": 720,
+      "annotations": [
+        { "label": "car", "bbox": [50, 320, 300, 160], "confidence": "high", "notes": "Parked vehicle" },
+        { "label": "car", "bbox": [500, 310, 260, 150], "confidence": "high", "notes": "Moving vehicle" },
+        { "label": "person", "bbox": [850, 220, 70, 190], "confidence": "medium", "notes": "Partially occluded by parked car" }
+      ]
+    },
+    {
+      "image_id": "img_003",
+      "filename": "kitchen_scene_01.jpg",
+      "width": 1024,
+      "height": 768,
+      "annotations": [
+        { "label": "bottle", "bbox": [200, 150, 60, 180], "confidence": "high", "notes": "Water bottle on counter" },
+        { "label": "cup", "bbox": [320, 200, 70, 90], "confidence": "high", "notes": "Ceramic mug" },
+        { "label": "bowl", "bbox": [500, 300, 120, 80], "confidence": "high", "notes": "Fruit bowl" }
+      ]
+    },
+    {
+      "image_id": "img_004",
+      "filename": "kitchen_scene_02.jpg",
+      "width": 1024,
+      "height": 768,
+      "annotations": [
+        { "label": "chair", "bbox": [100, 300, 140, 250], "confidence": "high", "notes": "Wooden dining chair" },
+        { "label": "chair", "bbox": [400, 310, 140, 240], "confidence": "high", "notes": "Wooden dining chair" },
+        { "label": "bottle", "bbox": [620, 180, 55, 160], "confidence": "high", "notes": "Sauce bottle on table" }
+      ]
+    },
+    {
+      "image_id": "img_005",
+      "filename": "park_scene_01.jpg",
+      "width": 1280,
+      "height": 720,
+      "annotations": [
+        { "label": "person", "bbox": [200, 180, 90, 220], "confidence": "high", "notes": "Adult walking a dog" },
+        { "label": "person", "bbox": [600, 200, 80, 210], "confidence": "high", "notes": "Person sitting on bench" },
+        { "label": "bench", "bbox": [550, 330, 200, 80], "confidence": "high", "notes": "Park bench" }
+      ]
+    },
+    {
+      "image_id": "img_006",
+      "filename": "park_scene_02.jpg",
+      "width": 1280,
+      "height": 720,
+      "annotations": [
+        { "label": "person", "bbox": [300, 160, 100, 240], "confidence": "high", "notes": "Child playing" },
+        { "label": "person", "bbox": [550, 170, 95, 230], "confidence": "high", "notes": "Adult nearby" },
+        { "label": "bench", "bbox": [850, 320, 210, 85], "confidence": "medium", "notes": "Partially cut off at edge" }
+      ]
+    },
+    {
+      "image_id": "img_007",
+      "filename": "office_scene_01.jpg",
+      "width": 1024,
+      "height": 768,
+      "annotations": [
+        { "label": "laptop", "bbox": [250, 200, 300, 200], "confidence": "high", "notes": "Open laptop on desk" },
+        { "label": "cup", "bbox": [580, 210, 65, 85], "confidence": "high", "notes": "Coffee cup beside laptop" },
+        { "label": "chair", "bbox": [150, 350, 160, 280], "confidence": "high", "notes": "Office chair" }
+      ]
+    },
+    {
+      "image_id": "img_008",
+      "filename": "office_scene_02.jpg",
+      "width": 1024,
+      "height": 768,
+      "annotations": [
+        { "label": "laptop", "bbox": [300, 210, 290, 195], "confidence": "high", "notes": "Laptop open" },
+        { "label": "bottle", "bbox": [620, 200, 50, 155], "confidence": "high", "notes": "Water bottle" },
+        { "label": "person", "bbox": [100, 100, 200, 400], "confidence": "high", "notes": "Person seated at desk" }
+      ]
+    },
+    {
+      "image_id": "img_009",
+      "filename": "supermarket_scene_01.jpg",
+      "width": 1280,
+      "height": 720,
+      "annotations": [
+        { "label": "person", "bbox": [180, 150, 100, 300], "confidence": "high", "notes": "Shopper with cart" },
+        { "label": "bottle", "bbox": [600, 200, 55, 150], "confidence": "high", "notes": "Product on shelf" },
+        { "label": "bottle", "bbox": [680, 200, 55, 150], "confidence": "high", "notes": "Product on shelf" }
+      ]
+    },
+    {
+      "image_id": "img_010",
+      "filename": "supermarket_scene_02.jpg",
+      "width": 1280,
+      "height": 720,
+      "annotations": [
+        { "label": "person", "bbox": [400, 140, 110, 310], "confidence": "high", "notes": "Shopper browsing" },
+        { "label": "person", "bbox": [700, 160, 105, 290], "confidence": "medium", "notes": "Partially behind shelf" },
+        { "label": "cup", "bbox": [200, 250, 75, 90], "confidence": "high", "notes": "Product display" }
+      ]
+    }
+  ],
+  "label_classes": ["car", "person", "bottle", "cup", "bowl", "chair", "bench", "laptop", "traffic_light"],
+  "total_images": 10,
+  "total_annotations": 30
+}

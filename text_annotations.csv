@@ -1,0 +1,21 @@
+id,text,sentiment,intent,annotator,notes
+1,"The delivery arrived two days earlier than expected. Really impressed!",Positive,Praise,Adekunle Feranmi,Clear positive sentiment
+2,"This product broke after just one week of use.",Negative,Complaint,Adekunle Feranmi,Strong negative sentiment
+3,"Does this item come in other colors?",Neutral,Question,Adekunle Feranmi,No sentiment expressed
+4,"I have mixed feelings — the quality is great but the price is too high.",Negative,Complaint,Adekunle Feranmi,Dominant tone is dissatisfaction about price
+5,"Absolutely love this! Will definitely buy again.",Positive,Praise,Adekunle Feranmi,Strong enthusiasm
+6,"The instructions were very unclear and hard to follow.",Negative,Complaint,Adekunle Feranmi,Complaint about documentation
+7,"Can you tell me when this will be back in stock?",Neutral,Question,Adekunle Feranmi,Informational request only
+8,"It works as described. Nothing special but gets the job done.",Neutral,Suggestion,Adekunle Feranmi,Neutral — meets expectations without exceeding them
+9,"I would suggest adding a carrying case to the package.",Neutral,Suggestion,Adekunle Feranmi,No strong sentiment; improvement suggestion
+10,"Terrible customer service. No one responded to my emails for a week.",Negative,Complaint,Adekunle Feranmi,Strong negative experience
+11,"Just received my order and everything looks perfect!",Positive,Praise,Adekunle Feranmi,Positive first impression
+12,"Is there a warranty included with this product?",Neutral,Question,Adekunle Feranmi,Neutral inquiry
+13,"The size runs small — please check the size guide before ordering.",Neutral,Suggestion,Adekunle Feranmi,Advice to future buyers; no strong emotional tone
+14,"I am so disappointed. This is not what was shown in the photos.",Negative,Complaint,Adekunle Feranmi,Clear mismatch complaint
+15,"Fast shipping and well-packaged. Very happy with the experience.",Positive,Praise,Adekunle Feranmi,Two positive aspects mentioned
+16,"The app keeps crashing every time I try to log in.",Negative,Complaint,Adekunle Feranmi,Technical complaint
+17,"Would love to see a version with longer battery life.",Neutral,Suggestion,Adekunle Feranmi,Product improvement suggestion
+18,"Five stars! Exceeded every expectation I had.",Positive,Praise,Adekunle Feranmi,Superlative positive review
+19,"How do I return an item if it doesn't fit?",Neutral,Question,Adekunle Feranmi,Process inquiry, no sentiment
+20,"Good product overall, but the packaging could be more eco-friendly.",Positive,Suggestion,Adekunle Feranmi,Primarily positive with a minor suggestion
